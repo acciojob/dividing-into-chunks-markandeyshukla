@@ -16,13 +16,12 @@ const divide = (arr, n) => {
       currentSum = num;
     }
   }
-
   if (currentChunk.length > 0) {
     result.push(currentChunk);
   }
 
   return result;
-}
+
 
 };
 
